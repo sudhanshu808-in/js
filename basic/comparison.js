@@ -3,22 +3,24 @@ console.log("2">"4");
 console.log("2"===2);
 
 const addingTwoNumber = (marks) => {
-    let grade = '';
+    let gradingSystem = '';
     if(marks>=75){
-         grade = "d"
+         gradingSystem = "d"
     }
     else if(marks>= 60 && marks <=70){
-        grade="first"
+        gradingSystem="first"
     }
     else if(marks>45  && marks <60){
-        grade="second"
+        gradingSystem="second"
     }
     else if(marks>= 33 && marks <=45){
-        grade="third"
+        gradingSystem="third"
     }
     else {
-        grade="failed"
+        gradingSystem="failed"
     }
-    return grade;
+    return gradingSystem;
 }
+
+
 addingTwoNumber(65)
