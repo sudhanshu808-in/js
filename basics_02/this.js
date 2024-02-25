@@ -11,7 +11,7 @@ const user2 = (username)=>{
 console.log(`${username} is an authenticated user`);
 }
 user2("Shubham")
-
+user2("shudhanshu")
 
 // if we are using curly braces we have to use return 
 const user3 = (num1,num2)=>{
